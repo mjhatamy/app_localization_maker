@@ -1,0 +1,22 @@
+{
+  "name": "localizations",
+  "version": "1.0.0",
+  "description": "My Gix iOS and Android Localizations generator based on Source JSON and SQLite saved data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^4.2.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "google-translate": "^2.3.0",
+    "node-core-lib": "^0.11.11",
+    "npm": "^6.13.1",
+    "sleep": "^6.1.0",
+    "sqlite3": "^4.1.0"
+  }
+}

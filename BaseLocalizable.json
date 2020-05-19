@@ -1,0 +1,1209 @@
+{
+    "Unknown Contact": "Unknown Contact",
+    "Private Number": "Private Number",
+    "Alerts": {
+        "File": {
+            "NameIsEmpty": {
+                "Message": "Enter a valid name and try again.",
+                "Title": "Name must not be empty."
+            }
+        },
+        "Phone": {
+            "EnterValidPhoneNumber": {
+                "Message": "Enter a valid phone number",
+                "Title": "Invalid"
+            }
+        },
+        "Contact":{
+            "BlockContact":{
+                "title" : "You will not receive calls, messages, or video from people on the block list.",
+                "Actions": {
+                    "Block": "Block Contact"
+                }
+            },
+            "NoPhoneBookAccess":{
+                "title": "Access to Contacts",
+                "message": "Please allow access to your phonebook to seamlessly find all your friends.",
+                "Actions":{
+                    "open_settings": {
+                        "cell_title": "Allow in Settings"
+                    }
+                }
+            }
+        }
+    },
+    "AppearanceModes":{
+        "auto": "Auto",
+        "dark": "Dark",
+        "light": "Light"
+    },
+    "CallKit": {
+        "call":"call",
+        "video":"video",
+        "message":"message",
+        "QRCode": "QR Code",
+        "CallStates": {
+            "Calling": "Calling...",
+            "Connecting": "Connecting...",
+            "Disconnected": "Call Ended",
+            "HOLD": "HOLD",
+            "Initiating": "Initiating...",
+            "Muted": "Muted",
+            "Ringing": "Ringing..."
+        },
+        "NavigationBar": {
+            "MultipleCallsMessage": "Touch to return to calls",
+            "SingleCallMessage": "Touch to return to call  %@"
+        }
+    },
+    "Calls": {
+        "CallTo": "Call to",
+        "CallTrough": "Call Trough",
+        "ClearCallsHistory": "Clear Calls History",
+        "Missedaudiocall_notification": "Missed audio call",
+        "Missedvideocall_notification": "Missed video call",
+        "MissedvoiceDidCall_notification": "Missed Voice My Number call",
+        "NumberNotValid_Message": "Enter a valid international phone number and try again",
+        "NumberNotValid_Title": "Number not valid",
+        "SearchRecentCalls": "Search recent calls",
+        "incoming": "incoming",
+        "incomingCall": "incoming",
+        "incomingVodeoCall": "incoming video",
+        "merge": "merge",
+        "missed": "missed",
+        "notification": "notification",
+        "outgoing": "Outgoing",
+        "outgoingCall": "outgoing",
+        "outgoingMissed": "outgoing Missed",
+        "outgoingVideoCall": "outgoing Video",
+        "MissedCallsShort": "Missed",
+        "AllCallsShort": "All"
+    },
+    "Common": {
+        "AboutUs_Title": "About us",
+        "Active": "Active",
+        "All": "All",
+        "Annual": "Annual",
+        "Attention": "Attention",
+        "Audio": "Audio",
+        "Back": "Back",
+        "Biography": "Biography",
+        "Birthday": "Birthday",
+        "Buy": "Buy",
+        "BuyCredit": "Buy Credit",
+        "Call": "Call",
+        "Callback": "Callback",
+        "Calls": "Calls",
+        "Camera": "Camera",
+        "Cancel": "Cancel",
+        "ChangeNumber": "Change Number",
+        "Chat": "Chat",
+        "Chats": "Chats",
+        "Clear": "Clear",
+        "Close": "Close",
+        "Contact": "Contact",
+        "Contacts": "Contacts",
+        "Continue": "Continue",
+        "Countries": "Countries",
+        "Country": "Country",
+        "Custom": "Custom",
+        "Datausage": "Data usage",
+        "Default": "Default",
+        "Delete": "Delete",
+        "Description": "Description",
+        "Descriptions": "Descriptions",
+        "Details": "Details",
+        "DisplayName": "Display Name",
+        "Displayname": "Display name",
+        "Document": "Document",
+        "Download": "Download",
+        "Downloading": "Downloading",
+        "Duration": "Duration",
+        "Edit": "Edit",
+        "Expired": "Expired",
+        "ExportPDF": "Export PDF",
+        "Extend": "Extend",
+        "Everybody": "Everybody",
+        "FaceId": "Face ID",
+        "Failed": "Failed",
+        "Features": "Features",
+        "FirstName": "First Name",
+        "Greeting": "Greeting",
+        "Help": "Help",
+        "Home": "Home",
+        "Import": "Import",
+        "Inactive": "Inactive",
+        "InviteFriends": "Invite Friends",
+        "Keypad": "Keypad",
+        "Landline": "Landline",
+        "Language": "Language",
+        "Languages": "Languages",
+        "LastName": "Last Name",
+        "Loading": "Loading...",
+        "LocalTime": "Local Time",
+        "Location": "Location",
+        "Mail": "Mail",
+        "Message": "Message",
+        "Minute": "Minute",
+        "Minutes": "Minutes",
+        "Missed": "Missed",
+        "Mobile": "Mobile",
+        "More": "More",
+        "Month": "Month",
+        "Monthly": "Monthly",
+        "MyContacts": "My Contacts",
+        "NewCall": "New Call",
+        "NewChat": "NewChat",
+        "Next": "Next",
+        "Nobody": "Nobody",
+        "None": "None",
+        "NoResults": "No Results",
+        "Notset": "Notset",
+        "NumberWithoutTheCountryCode": "Number without the country code",
+        "Off": "Off",
+        "OK": "OK",
+        "On": "On",
+        "Pending": "Pending",
+        "PhoneBook": "Phone Book",
+        "PhoneNumber": "Phone Number",
+        "PhotoAndVideoLibrary": "Photo & Video Library",
+        "Play": "Play",
+        "PleaseWait_ThreeDots": "Please wait ...",
+        "Print": "Print",
+        "Privacy": "Privacy",
+        "PrivacyPolicy": "Privacy Policy",
+        "Processing": "Processing...",
+        "Rate": "Rate",
+        "Recent": "Recent",
+        "Record": "Record",
+        "Rename": "Rename",
+        "SMS": "SMS",
+        "Save": "Save",
+        "Search": "Search",
+        "Security": "Security",
+        "SelectAll": "Select All",
+        "DeselectAll": "Deselect All",
+        "SelectCountry": "Select Country",
+        "SelectYourCountry": "Select your country",
+        "SendMessage": "Send Message",
+        "SetUsername": "Set Username",
+        "SetaNewName": "Set a New Name",
+        "Settings": "Settings",
+        "ShareContact": "Share Contact",
+        "ShareMyLocation": "Share My Location",
+        "Speaker": "Speaker",
+        "Stop": "Stop",
+        "TermsAndPolicies": "Terms & Policies",
+        "TouchId": "Touch ID",
+        "URGENT": "URGENT",
+        "UnknownContact": "Unknown Contact",
+        "Username": "Username",
+        "Version": "Version",
+        "Voice": "Voice",
+        "Voicemail": "Voicemail",
+        "Voicemails": "Voicemails",
+        "Waitingfornetwork": "Waiting for network",
+        "Yourname": "Your name",
+        "duration": "duration",
+        "minute": "minute",
+        "minutes": "minute",
+        "second": "second",
+        "seconds": "seconds"
+    },
+    "CommonActions": {
+        "AddPhoto": "Add Photo",
+        "Archive": "Archive",
+        "archive": "Archive",
+        "Add": "Add",
+        "Back":"Back",
+        "Cancel": "Cancel",
+        "Clear": "Clear",
+        "Close": "Close",
+        "Continue": "Continue",
+        "Delete": "Delete",
+        "delete": "delete",
+        "Disable": "Disable",
+        "Done": "Done",
+        "Edit": "Edit",
+        "Enable": "Enable",
+        "Next": "Next",
+        "Save": "Save",
+        "save": "save",
+        "Ok": "Ok",
+        "Open": "Open",
+        "Play": "Play",
+        "Record": "Record",
+        "Recover": "Recover",
+        "RemovePhoto": "Remove Photo",
+        "SetAsRead" : "Set as Read",
+        "SetPhoto": "Set Photo",
+        "Stop": "Stop",
+        "Unread": "Unread"
+    },
+    "Contacts": {
+        "UnknownContact": "Unknown Contact"
+    },
+    "Formats": {
+        "DateTime": {
+            "Today": "Today",
+            "Yesterday": "Yesterday",
+            "today": "today",
+            "yesterday": "yesterday",
+            "tomorrow": "Tomorrow"
+        },
+        "Currency": {
+            "Credit": "Credit"
+        }
+    },
+    "GXImagePicker": {
+        "Albums": "Albums",
+        "CameraPhotoTitle": "Photo",
+        "Cover": "Cover",
+        "CropVC": {
+            "title": "Crop"
+        },
+        "FilterTitle": "Filter",
+        "GalleryTitle": "Gallery",
+        "LibraryVC": {
+            "title": "Library"
+        },
+        "PermissionDeniedPopupGrantPermission": "Grant Permission",
+        "PermissionDeniedPopupMessage": "Please allow access",
+        "PermissionDeniedPopupTitle": "Permission denied",
+        "PermissionPopup": {
+            "grantPermission": "Grant Permission",
+            "message": "Please allow access",
+            "title": "Permission denied"
+        },
+        "Processing": "Processing..",
+        "Trim": "Trim",
+        "Video": "Video",
+        "VideoCaptureVC": {
+            "title": "Video"
+        },
+        "VideoDurationPopup": {
+            "title": "Video duration",
+            "tooLongMessage": "Pick a video less than %@ seconds long",
+            "tooShortMessage": "The video must be at least %@ seconds"
+        },
+        "VideoDurationTitle": "Video duration",
+        "VideoTooLong": "Pick a video less than %@ seconds long",
+        "VideoTooShort": "The video must be at least %@ seconds",
+        "WarningMaxItemsLimit": "The limit is %d photos or videos"
+    },
+
+    "GXNumbers": {
+        "DIDBuyAgreementDetails": "By pressing Buy button, your account will be charged for the amout of the service and service will be renewed monthly unless you cancel it. You can cancel subscription anytime in the 'My Numbers' control panel.",
+        "DIDBuySucceedDetails": "You have successfully added phone number:%@ \n You can cancel this subscription anytime. To keep the subscription active, you need to have enough balance in your account.",
+        "DeleteGreetingAlert_message": "If you delete your custom greeting message, it will roll back to system default greeting message.",
+        "EditProfile_SetImageAndDisplayName_Footer": "Set a display name and an optional profile photo",
+        "MainAccount": "Main Account",
+        "MyNumberProfile_Header": "My Number Profile",
+        "MyNumbers": "My Numbers",
+        "NumberIsDisabled": {
+            "Message": "You will no longer receive calls or messages on this number till you enable it again.",
+            "Title": "Your number is disabled"
+        },
+        "NumberIsExpired": {
+            "Message": "Your number has been expired and deleted.",
+            "Title": "Expired"
+        },
+        "NumberIsPending": {
+            "Message": "It usually takes up to 24 hours and You will be notified upon activation.",
+            "Title": "Your number is pending"
+        },
+        "PhoneNumberAndDisplayName": "Phone Number And Display Name",
+        "PurchaseSearchResultEmpty": "No Numbers Found.",
+        "SearchByAreaCode": "Search By Area Code (Ex: 818)",
+        "SetADisplayName": "Set a Display Name"
+    },
+    "GXPushNotification": {
+        "GXDID_CLOSE_TO_EXPIRE_AUTORENEWAL_Body": "Your number will expire on '%@' however, Auto-Renewal feature of this number is not enabled. To keep your number active, go to 'My Numbers' and set Auto-Renwal option. There is no guarantee for reactivation of expired numbers.",
+        "GXDID_CLOSE_TO_EXPIRE_AUTORENEWAL_Title": "Gix '%@' Number Alert",
+        "GXDID_CLOSE_TO_EXPIRE_NOCREDIT_Body": "Your number will expire on '%@' and your available credit is not enough to renew subscription to this number. Topup more credit to keep your number active. There is no guarantee for reactivation of expired numbers.",
+        "GXDID_CLOSE_TO_EXPIRE_NOCREDIT_Title": "Gix '%@' Number Alert",
+        "GXDID_DELETED_Body": "You will no longer receive calls or messages from this number. There is a 3 days grace period to reorder and buy this number and after that the number will be released to public.",
+        "GXDID_DELETED_Title": "Gix '%@' Number Deleted",
+        "GXDID_PURCHASED_Body": "Your number purchase was successful and your number is ready to use. You can place or receive call on this number like your number from Phone company. Gix mobile numbers also support SMS send and receive features as well.",
+        "GXDID_PURCHASED_PENDING_ACTIVE_Body": "Your number activated and your number is ready to use. You can place or receive call on this number like your number from Phone company. Gix mobile numbers also support SMS send and receive features as well.",
+        "GXDID_PURCHASED_PENDING_ACTIVE_Title": "Gix '%@' Number Activated",
+        "GXDID_PURCHASED_PENDING_CONFIG_Body": "Your number purchase was successful, however, It will take up to 24 hours until your number become active. You will be notified as soon as your number become active.",
+        "GXDID_PURCHASED_PENDING_CONFIG_Title": "Gix '%@' Number Purchased (Pending Activation)",
+        "GXDID_PURCHASED_Title": "Gix '%@' Number Purchased",
+        "GX_USER_JOINED_Body": "Your contact %@ joined Gix. Be the first to say hello",
+        "GX_USER_JOINED_Title": "New Contact"
+    },
+    "GxErrors": {
+        "Arguments": {
+            "MissingParameterException": {
+                "Message": "Missing parameter exception",
+                "Title": "Failed"
+            },
+            "ValidationFailed": {
+                "Message": "Validation failed",
+                "Title": "Failed"
+            }
+        },
+        "Auth": {
+            "AccountNotFound": {
+                "Message": "If you believe your account was deleted by mistake, please provide the following information so we can investigate.\n\nPlease Only contact us if your account was disabled for not following MyGix's Community Guidelines and you believe this was a mistake. If you can't access your account for a different reason, please return to the Help Center to find the appropriate place to report your issue.\n To Access Help Center go to MyGix.com Website and Open a ticket in the support center.",
+                "Title": "Attention"
+            },
+            "CognitoIdentityIdNotFound": {
+                "Message": "If you believe your account was deleted by mistake, please provide the following information so we can investigate.\n\nPlease Only contact us if your account was disabled for not following MyGix's Community Guidelines and you believe this was a mistake. If you can't access your account for a different reason, please return to the Help Center to find the appropriate place to report your issue.\n To Access Help Center go to MyGix.com Website and Open a ticket in the support center.",
+                "Title": "Attention"
+            },
+            "IncorrectPassword": {
+                "Message": "Your session has been disabled.",
+                "Title": "Attention"
+            },
+            "Unauthorized": {
+                "Message": "Unauthorized",
+                "Title": ""
+            },
+            "UnregisteredAccount": {
+                "Message": "Validation failed",
+                "Title": "Failed"
+            },
+            "UserDisabled": {
+                "Message": "If you believe your account was disabled by mistake, please provide the following information so we can investigate.\n\nPlease Only contact us if your account was disabled for not following MyGix's Community Guidelines and you believe this was a mistake. If you can't access your account for a different reason, please return to the Help Center to find the appropriate place to report your issue.\n To Access Help Center go to MyGix.com Website and Open a ticket in the support center.",
+                "Title": "Attention"
+            },
+            "UserSuspended": {
+                "Message": "If you believe your account was suspended by mistake, please provide the following information so we can investigate.\n\nPlease Only contact us if your account was disabled for not following MyGix's Community Guidelines and you believe this was a mistake. If you can't access your account for a different reason, please return to the Help Center to find the appropriate place to report your issue.\n To Access Help Center go to MyGix.com Website and Open a ticket in the support center.",
+                "Title": "Attention"
+            }
+        },
+        "Common": {
+            "ConnectionTimedOut": {
+                "Message": "Service Temporary Unavailble. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "NotFound": {
+                "Message": "Not found. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "TemporaryFailed": {
+                "Message": "Temporary failed. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "TemporaryUnavailable": {
+                "Message": "Temporary unavbailable. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "TransformingTemplateFailed": {
+                "Message": "Temporary failed. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "Unknown": {
+                "Message": "Please wait and try again.",
+                "Title": "Failed"
+            }
+        },
+        "Credits": {
+            "NotEnoughCredits": {
+                "Message": "You do not have enough credit to purchase this item. Go to Credits page and purchase credits and try again.",
+                "Title": "Not enough credit"
+            }
+        },
+        "DIDNumbers": {
+            "NotAvailableCountry": {
+                "Message": "This country is not available.",
+                "Title": "Not available"
+            },
+            "NumberNotAvailable": {
+                "Message": "This number is not available to purchase.",
+                "Title": "Not available"
+            }
+        },
+        "GraphQL": {
+            "AppSyncConnectionError": {
+                "Message": "Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "AppSyncDisconnected": {
+                "Message": "Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "AuthenticationError": {
+                "Message": "Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "FileUploadFailed": {
+                "Message": "Uploading failed. Please check internet connection and try again.",
+                "Title": "Attention"
+            },
+            "QueryFailed": {
+                "Message": "Request failed. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "SubscriptionTerminated": {
+                "Message": "Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "TransformingTemplateFailed": {
+                "Message": "Request failed. Please wait and try again later.",
+                "Title": "Attention"
+            },
+            "Unknown": {
+                "Message": "Please wait and try again.",
+                "Title": "Attention"
+            }
+        },
+        "Local": {
+            "GettingFileStoageLocationFailed": {
+                "Message": "Temporary unavbailable. Please wait and try again later.",
+                "Title": "Attention"
+            }
+        },
+        "Network": {
+            "ConnectionLost": {
+                "Message": "Network connection lost. Check the internet connection and try again",
+                "Title": "Attention"
+            },
+            "ExecutionTimeoutException": {
+                "Message": "Network connection timeout. Check the internet connection and try again",
+                "Title": "Attention"
+            },
+            "NotConnectedToInternet": {
+                "Message": "The Internet connection appears to be offline. Check the internet connection and try again",
+                "Title": "No Connection"
+            },
+            "URLRequestCanceled": {
+                "Message": "Request canceled",
+                "Title": "Attention"
+            }
+        },
+        "Permissions": {
+            "NoMicrophonePermission": {
+                "Message": "",
+                "Title": "To record a voice, Gix needs access to your iPhone's microphone. Tap Settings and turn on Microphone."
+            }
+        },
+        "SignUp": {
+            "ConfirmSignUpRestartRequired": {
+                "Message": "This sign up request is expired. Restart registration process.",
+                "Title": "Restart required"
+            },
+            "DeviceUUIDMismatch": {
+                "Message": "You are trying to sign up on a new device or you have reinstalled application. Please wait at least 10 minutes and try again.",
+                "Title": "Attention"
+            },
+            "IncorrectPinCode": {
+                "Message": "Enter 6-Digits code you received via SMS and try again.",
+                "Title": "Incorrect code"
+            },
+            "InvalidPhoneNumber": {
+                "Message": "The phone number is not valid. Check phone number and try again.",
+                "Title": "Attention"
+            },
+            "PhoneNumberIsBlackListed": {
+                "Message": "This phone number is blacklisted.",
+                "Title": "Attention"
+            },
+            "ProtectionInvalidPhoneNumber": {
+                "Message": "The phone number you entered is not valid. Please check the number and try again.",
+                "Title": "Attention"
+            },
+            "ProtectionPinIncorrect": {
+                "Message": "Incorrect protection pin entered.\nThis account is protected by a pin to sign up, it is required to enter the correct pin you have set to proceed.",
+                "Title": "Incorrect"
+            },
+            "ProtectionPinRequired": {
+                "Message": "This account is protected by a pin to sign up, it is required to enter the correct pin you have set to proceed.",
+                "Title": "Attention"
+            },
+            "TooManySignUpRequests": {
+                "Message": "Concurrent sign up to the same number is not allowed. You have to wait at least 10 minutes and try again.",
+                "Title": "Try again later"
+            },
+            "TooManyWrongCodes": {
+                "Message": "You have entered too many wrong codes.\nPlease wait for at least 10 minutes and try again.",
+                "Title": "Incorrect code"
+            },
+            "UnsupportedNetwork": {
+                "Message": "This phone number network is not supported.",
+                "Title": "Attention"
+            },
+            "WaitAndTryAgain": {
+                "Message": "Please wait and try again in a few minutes.",
+                "Title": "Try again later"
+            }
+        },
+        "User": {
+            "OperationFailedRetryAgain": {
+                "Message": "Operation failed. Please wait and try again",
+                "Title": "Attention"
+            },
+            "RequestCouldNotBeCompletedDiskIssue": {
+                "Message": "Request could not be completed at this time. Memory is full. Free up some space and try again.",
+                "Title": "Attention"
+            },
+            "RequestCouldNotBeCompletedNetworkIssue": {
+                "Message": "Request could not be completed at this time. Check internet connection and try again",
+                "Title": "Attention"
+            }
+        },
+        "VoIPCall": {
+            "DIDSubscriptionNoLongerExist": {
+                "Message": "Number Associated to this call has been expired or deleted. Check Your purchased numbers and try again.",
+                "Title": "Attention"
+            },
+            "CannotPlaceCallToPrivateNumber": {
+                "Message": "The number you are trying to call is Private number and No Phone number is available to call.",
+                "Title": "Attention"
+            }
+        }
+    },
+    "iOS":{
+        "CNLabeledValue" :{
+            "CNLabelHome": "home",
+            "CNLabelWork": "work",
+            "CNLabelOther" : "other",
+            "CNLabelSchool" : "School",
+            "CNLabelEmailiCloud": "iCloud Email",
+            "CNLabelURLAddressHomePage" : "Home Page",
+            "CNLabelDateAnniversary": "Anniversary",
+            "CNLabelPhoneNumberMain": "main",
+            "CNLabelPhoneNumberiPhone": "iPhone",
+            "CNLabelPhoneNumberMobile": "mobile",
+            "CNLabelPhoneNumberPager": "pager",
+            "CNLabelPhoneNumberWorkFax": "work fax",
+            "CNLabelPhoneNumberHomeFax": "home fax",
+            "CNLabelPhoneNumberOtherFax": "other fax",
+            
+            "CNLabelContactRelationSpouse": "spouse",
+            "CNLabelContactRelationPartner": "partner",
+            "CNLabelContactRelationChild": "child",
+            "CNLabelContactRelationParent": "parent",
+            "CNLabelContactRelationFather": "father",
+            "CNLabelContactRelationMother": "mother",
+            "CNLabelContactRelationSister": "sister",
+            "CNLabelContactRelationBrother": "brother",
+            "CNLabelContactRelationFriend": "friend",
+            "CNLabelContactRelationManager": "manager",
+            "CNLabelContactRelationAssistant": "assistant",
+            "CNLabelContactRelationDaughter" :"daughter",
+            "CNLabelContactRelationSon": "son",
+            "CNLabelContactRelationColleague": "colleague",
+            "CNLabelContactRelationTeacher": "teacher",
+            "CNLabelContactRelationSibling" : "sibling",
+            "CNLabelContactRelationYoungerSibling": "younger sibling",
+            "CNLabelContactRelationElderSister": "elder sibling",
+            "CNLabelContactRelationYoungerSister": "younger sister",
+            "CNLabelContactRelationYoungestSister": "youngest sister",
+            "CNLabelContactRelationWife": "wife",
+            "CNLabelContactRelationHusband": "husband"
+        }
+    },
+    "Invitations": {
+        "InviteFriends": {
+            "SMS": {
+                "subject": "MyGix, Secure Communication Platform",
+                "body": "Hey, I'm using Gix, The most secure way of communication. Join me! Download here: https://mygix.com/dl"
+            },
+            "EMail": {
+                "subject": "MyGix, Secure Communication Platform",
+                "body": "Hey, I'm using Gix, The most secure way of communication. Join me! Download here: https://mygix.com/dl"
+            }
+        },
+        
+        "SMSInvitation_msg": "Hey, I'm using Gix, The most secure way of communication. Join me! Download here: https://mygix.com/dl"
+    },
+    "Purchase": {
+        "NotEnoughCredit_Message": "You donot have enough credit to purchase this item. You can buy more credit and try again.",
+        "NotEnoughCredit_Title": "Not enough credit"
+    },
+    "Recorded": {
+        "ArchivedRecords": "Deleted Recordeds",
+        "ConversationOn": "Conversation on: %@",
+        "DeletedRecordeds": "Deleted Recordeds",
+        "Enteranameforrecordedcall": "Enter a name for this recorded call.",
+        "Extendyoursubscription_message": "Extend your subscription now and keep call recording subscription active and uninterrupted.",
+        "FirstCallrecordingSubscriptionPurchase": "Purchase a call recording subscription plan and enjoy unlimited call recording and storage feature.",
+        "NoRecordedArchivedCalls_Message": "Your deleted recorded calls will appear here",
+        "NoRecordedCalls_Message": "Your recorded calls will appear here",
+        "PurchaseSubscriptionsusccessfull_message": "You have successfully purchased Call Recording Subscription plan.",
+        "Recorded": "Recorded",
+        "StoreRenewSubscription_message": "Renew your Call Recording subscription plan and enjoy unlimited call recording feature.",
+        "SubscriptionAboutToExpire_message": "Renew your subscription to avoid service interruption.\nYour current subscription will expire on : %@.",
+        "SubscriptionNowFound": "You donot have subcription for Call Recording Feature. In order to record calls, you have to purchase a 'Call Recording Subscription' to record calls without any limit.",
+        "YouareusingFreeCallRecording_message": "You are using Free call Recording feature.\nThis feature is limited to only 5 recordings. Upgrade to an annual or monthly subscription plan to use unlimited feature.\nYou have recorded %d call for free.",
+        "Youhavereachedmaximum_message": "Free Call Recording Feature is limited to only 5 Records.\nYou have to Purchase a subscription plan (annual or monthly) to activate unlimited call recording feature.\nYour subscription expired on: %@"
+    },
+    "Signup": {
+        "accountActivationPage": {
+            "EnterTheCodeRxViaSMS": "Enter the code you received via SMS",
+            "ItShouldArriveWithInNextMinute": "It should arrive within the next minutes.",
+            "TheCodeWasSendTo": "The code was sent to %@.",
+            "Your6DigitCode": "Your 6-Digits code",
+            "titleMessage": "We have sent you an SMS with a code to the number above.",
+            "subtitleMessage": "To complete your phone number verification, please enter the 6-digit activation code.",
+            "VerifyingMessage": "Verifying code"
+        },
+        "accountSetupPage": {
+            "SelectYourCountry": "Select your country",
+            "HeaderMessage": "Please confirm your country code and enter your phone number.",
+            "MakeSureYouCanReceiveSMS": "Make sure you can receive SMS to this number so that we can send you a code.",
+            "WaitingView_Title": "Validating ...",
+            "phoneNumberCellPlaceHolder": "your phone number",
+            "title": "Your Phone Number",
+            "ReferralHeader": "You do not need to fill this field.\nReferral program provides free services and gift credits.",
+            "ReferralTitle": "Referral Code",
+            "ReferralPlaceHolder": "optional Referral code"
+        },
+        "initialPage": {
+            "agreeAndContinueButton": "Agree & Continue",
+            "agreement": {
+                "ranges": {
+                    "termsOfServiceRange": {
+                        "length": 16,
+                        "location": 37,
+                        "searchText": "Terms of Service"
+                    }
+                },
+                "text": "Tap \"Agree & Continue\" to accept the Terms of Service."
+            },
+            "detailsText": "Gix, The Most Secure Way of Communication\nFree calls and messages to Gix users and any other phones worldwide.",
+            "title": "Welcome",
+            "trademarkAndPrivacyPolicy": {
+                "ranges": {
+                    "privacyPolicyRange": {
+                        "length": 16,
+                        "location": 14
+                    }
+                },
+                "text": "©2016-2019 Gix  Privacy Policy"
+            },
+            "welcomeText": "Welcome to Gix"
+        }
+    },
+    "Subscriptions": {
+        "Actions":{
+            "Renew": "Renew",
+            "Subscribe": "Subscribe",
+            "Extend": "Extend"
+        },
+        "States":{
+            "NoSubscription": {
+                "title": "Subscription Required",
+                "actionButtonTitle": "Subescribe"
+            },
+            "Expired": {
+                "title": "Subscription is expired",
+                "actionButtonTitle": "Renew",
+                "message": "Your subscription expired on: %@."
+            },
+            "AboutToExpire": {
+                "title": "Subscription about to expire",
+                "actionButtonTitle": "Extend",
+                "message": "Your subscription will expires on: %@."
+            }
+        },
+        "CallRecording":{
+            "States":{
+                "Expired": "Your subscription is expired. Renew your Call Recording subscription plan and enjoy unlimited call recording feature.",
+                "AboutToExpire": "Renew your subscription to avoid service interruption.\nYour current subscription will expire on : %@.",
+                "NoSubscription": {
+                    "TrialActive": "You are using Free call Recording feature.\nThis feature is limited to only 5 recordings. Upgrade to an annual or monthly subscription plan to use unlimited feature.\nYou have recorded %d call for free.",
+                    "TrialInactive": "Free Call Recording Feature is limited to only 5 Records.\nYou have to Purchase a subscription plan (annual or monthly) to activate unlimited call recording feature.\nYour subscription expired on: %@"
+                }
+            }
+        },
+        "StartDate": "Start Date",
+        "ExpirationDate": "Expiration Date",
+        
+        "Agreement": "Agreement",
+        "AutoRenewal": "Auto Renewal",
+        "DoSubscribe_title": "Subescribe",
+        "Extend_title": "Extend subscription",
+        "MyGixStoreTitle": "Gix Store",
+        "RenewSubscription": "Renew Subscription",
+        "Resubscribe": "Resubscribe",
+        "Subscription": "Subscription",
+        "SubscriptionAnnual": "Annual Subscription",
+        "SubscriptionDate": "Subscription Date",
+        "SubscriptionMonthly": "Monthly Subscription",
+        "SubscriptionMonthlyOrAnnualDiscounted_message": "You can subscribe monthly or Annual at discount price.",
+        "SubscriptionPlans": "Subscription Plans",
+        "TopupCreditDescription_Message": "By purchasing Gix credit you will be able to buy Gix services or features.\nThe GIX Credit never expires and enables you to buy features or services or renew existings."
+    },
+    "Symbols": {
+        "Comma": ","
+    },
+    "TabbarControllers": {
+        "CallsTab": {
+            "searchBar": {
+                "placeHolder": "Search"
+            },
+            "tabBar_Title": "Calls",
+            "title": "Calls",
+            "NoItemPlaceHolder": "Your recent calls will appear here"
+        },
+        "ContactsTab": {
+            "searchBar": {
+                "placeHolder": "Search"
+            },
+            "tabBar_Title": "Contacts",
+            "title": "Contacts"
+        },
+        "Chats":{
+            "tabBar_Title": "Chats",
+            "title": "Chats"
+        },
+        "Channel":{
+            "tabBar_Title": "Channel",
+            "title": "Channel"
+        },
+        "Settings": {
+            "tabBar_Title": "Settings",
+            "title": "Settings"
+        }
+    },
+    "Themes": {
+        "day": "Day",
+        "dayClassic": "Day Classic",
+        "nightAccent": "Night Blue",
+        "nightGrayscale": "Night"
+    },
+    "URLs": {
+        "privacyPolicy": {
+            "Title": "Privacy Policy",
+            "url": "https://plain.mygix.com/%@/privacy-policy"
+        },
+        "termsOfService": {
+            "Title": "Terms Of Service",
+            "url": "https://plain.mygix.com/%@/terms-of-service"
+        }
+    },
+    "CommonViewControllers": {
+        "AddCall": {
+            "title": "New Call"
+        },
+        "ChatView": {
+            "ChatInputView": {
+                "textPlaceHolder": "Type a message..."
+            }
+        },
+        "GxPasscodeController": {
+            "enterPasscodeViewTitle": "Enter Passcode",
+            "setPassCodePage_Title": "Set Passcode",
+            "setPassCodePage_EnterCurrentPasscode": "Enter Current Passcode",
+            "setPassCodePage_EnterNewPasscode": "Enter New Passcode",
+            "setPassCodePage_ConfirmNewPasscode": "Confirm New Passcode",
+            "setPassCodePage_EnterCurrentPasscodeTitle": "Enter Current Passcode",
+            "setPassCodePage_DidnotMatch": "Passcode didn't match.",
+            "setPassCodePage_PasscodeOptionsButton": "Passcode Options",
+            "setPassCodePage_passwordTypeOptions": {
+                "sixDigitCode": "6-Digit Numeric Code",
+                "fourDigitCode": "4-Digit Numeric Code",
+                "customNumeric": "Custom Numeric Code",
+                "customAlphanumeric": "Custom Alphanumeric Code"
+            },
+            "setPassCodePage_FailedPassCodeAttempts": "%d Failed Passcode Attempts !"
+        },
+        "SetUsername" : {
+            "title": "Username",
+            "placeHolderForUsername": "Characters and Digits, Minimum 5 characters",
+            "footer": {
+                "row1": "Username is your identity for sending or receiving messages or used for subscribing to channels.",
+                "row2": "You can use a-z, 0-9 and underscores. Minimum length is 5 characters.",
+                "row3": "Unlike most of the popular communication applications, we do not expose or share or send your phone number or private information.",
+                "row4": "Your phone number is not visible to any member and exclusively used for sign up or account retrieval purposes.",
+                "chatLinkTitle": "This link opens a chat with you:"
+            },
+            "errors": {
+                "checking": "checking username...",
+                "available": "is available.",
+                "taken": "Sorry, this username is already taken.",
+                "invalidLength": "A username must have at least 5 and maximum 20 characters.",
+                "invalidCharacters": "Only a-z, 0-9 and underscores allowed.",
+                "invalidUsername": "Sorry, this username is not valid.",
+                "tooSoon": "Sorry, you have recently changed your username. You have to wait up to 7 days."
+            },
+            "OtherPagesAlert" : {
+                "usernameNotSet": {
+                    "title": "Username not set yet!",
+                    "message": "You are just one step away from Instant Messaging and Channels. You have to setup a username to activate this feature.",
+                    "details": "Why? Because the internet is not a safe place. We do not want your personal information to be shared."
+                }
+            }
+        }
+    },
+    "ViewControllers": {
+        "AddBlockedOrConditionalContacts": {
+            "NoItemPlaceHolders": {
+                "Contacts": "Your Contacts will appear here.",
+                "PhoneBook": "Your Phone Book Contacts will appear here.",
+                "Chats": "Your chats list will appear here."
+            }
+        },
+        "AudioCall": {
+            "addcall": "add call",
+            "hide": "hide",
+            "keypad": "keypad",
+            "merge": "merge",
+            "mute": "mute",
+            "record": "record",
+            "speaker": "speaker",
+            "swap": "swap",
+            "title": "Audio Call",
+            "unhold": "unhold",
+            "video": "video"
+        },
+        "ContactView": {
+            "Fields": {
+                "Common": {
+                    "PhoneNumber": "Phone number",
+                    "Username": "Username"
+                },
+                "Gix": {
+                    "PhoneNumber": "MyGix",
+                    "Username": "MyGix",
+                    "Biography": "Biography"
+                }
+            },
+            "birthday":"birthday",
+            "note": "note",
+            "InviteToGix": "Invite to MyGix",
+            "ShowPhoneBookEntry": "Contact Details",
+            "SharedMediaAndOther": "Media, Links, and Docs",
+            "StarredMessages": "Starred Messages",
+            "DisplayPublicCryptoCode" : "Display Public Crypto Code",
+            "ReportContact": "Report Contact",
+            "ExportChat": "Export Chat",
+            "ClearChat": "Clear Chat",
+            "Mute" : {
+                "actions":{
+                    "deactivate": "Unmute",
+                    "ActiveFor_1_Hour": "1 Hour",
+                    "ActiveFor_8_Hours": "8 Hours",
+                    "ActiveFor_1_Day" : "1 day",
+                    "ActiveFor_1_Week": "1 week",
+                    "ActiveFor_1_Year": "1 Year"
+                },
+                "titles": {
+                    "active": "Muted",
+                    "inactive": "Mute"
+                },
+                "messages":{
+                    "active": "until %@",
+                    "inactive": "No"
+                }
+            },
+            "SendMessage": "Send Message",
+            "ShareContact": "Share Contact",
+            "ShareMyLocation": "Share My Location",
+            "CreateNewContact": "Create New Contact",
+            "BlockThisContact": {
+                "activate": "Block this Caller",
+                "deactivate": "Unblock this Caller"
+            }
+        },
+        "ContactEncryptionQRCode": {
+            "title": "Gix Key",
+            "message": "MyGix Accounts are secured using BCube and GixConnect encryption system.\n\nMessages and Calls are secured with end-to-end Public/Private Key system.\n\nGixConnect is a RSA+AES Powered Block-Chain algorithms.\n"
+        },
+        "InviteFriends":{
+            "title": "Contacts",
+            "toolBarSendInviteButton": "Send %@ Invites",
+            "SelectAll": "Select All",
+            "DeselectAll": "Deselect All"
+        },
+        "Contacts":{
+            "title": "Contacts",
+            "NoContactsItemsPlaceHolder": "Your Contacts will appear here",
+            "NoPhoneBookItemsPlaceHolder": "Your PhoneBook Contacts will appear here"
+        },
+        "Calls": {
+            "Numbers": {
+                "BuyNumbersCountriesList": {
+                    "buttonTitle": "Buy",
+                    "title": "Countries"
+                },
+                "BuyNumbersCountryNumbers": {
+                    "buttonTitle": "Numbers",
+                    "title": "Numbers"
+                },
+                "EditProfile": {
+                    "ImageSectionFooterTitle": "Enter a name and add an optional profile photo.",
+                    "title": "Edit Profile"
+                },
+                "NoItemPlaceHolder": {
+                    "Button": "Purchase a Number",
+                    "Message": "Your Numbers will appear here.\n\nPurchase Phone Numbers all over the world and receive calls and messages on your phone or place calls.\nYou can purchase multiple numbers and manage associated services."
+                },
+                "buttonTitle": "My Numbers",
+                "title": "My Numbers"
+            },
+            "Record": {
+                "Archived": {
+                    "NoItemPlaceHolder": {
+                        "Message": "Archived recorded calls will appear here.\nTo record a conversation, press on the record button during an active call."
+                    },
+                    "buttonTitle": "Archive",
+                    "title": "Archive"
+                },
+                "ArchivedMessages": "Deleted Records",
+                "NoItemPlaceHolder": {
+                    "Message": "Your recorded calls will appear here.\n\nTo record a conversation, press on the record red button during an active call."
+                },
+                "buttonTitle": "Record",
+                "title": "Recorded Calls"
+            },
+            "Voicemail": {
+                "Archived": {
+                    "NoItemPlaceHolder": {
+                        "Message": "Your deleted voicemail will appear here"
+                    },
+                    "buttonTitle": "Archived",
+                    "title": "Archived"
+                },
+                "ArchivedMessages": "Deleted Messages",
+                "NoItemPlaceHolder": {
+                    "Message": "Your voicemail will appear here"
+                },
+                "buttonTitle": "Voicemail",
+                "title": "Voicemail"
+            }
+        },
+        
+        "Greeting":{
+            "buttonTitle": "Greeting",
+            "title": "Greeting"
+        },
+        
+        "Settings": {
+            "About": {
+                "cell_Title": "About",
+                "title": "About"
+            },
+            "Appearance": {
+                "cell_Title": "Appearance",
+                "title": "Appearance",
+                "footer": "Auto mode automatically adjust to the system theme and will automatically update when your device appearance changes."
+            },
+            "Credits": {
+                "AvailableCredit": "Available Credit",
+                "Transactions": {
+                    "Amount": "Amount",
+                    "Date": "Date",
+                    "GixCallRecordingSubscription_Annual_text": "Call Recording Annual Subscription",
+                    "GixCallRecordingSubscription_Monthly_text": "Call Recording Monthly Subscription",
+                    "GixDIDSubscriptionPurchase_Annual_text": "Purchase of DID Number Annual Subscription",
+                    "GixDIDSubscriptionPurchase_Monthly_text": "Purchase of DID Number Monthly Subscription",
+                    "History_title": "History",
+                    "Transaction": "Transaction",
+                    "TransactionDescription": "Transaction Description",
+                    "TransactionId": "Transaction Id",
+                    "Transactions": "Transactions",
+                    "TransactionsList": "Transactions List",
+                    "TransactionsWillAppearHere": "Your transactions will appear here.",
+                    "cell_Title": "Transactions",
+                    "title": "Transactions"
+                },
+                "cell_Title": "Credit and Transactions",
+                "title": "Credit"
+            },
+            "DataAndStorage": {
+                "cell_Title": "Data and Storage",
+                "title": "Data and Storage"
+            },
+            "Help": {
+                "cell_Title": "Help",
+                "title": "Help"
+            },
+            "InviteFriends": {
+                "cell_Title": "Invite Friends",
+                "title": "Invite Friends"
+            },
+            "Language": {
+                "cell_Title": "Language",
+                "title": "Language"
+            },
+            "NotificationAndSounds": {
+                "cell_Title": "Notification and Sounds",
+                "title": "Notification and Sounds"
+            },
+            "PrivacyAndSecurity": {
+                "cell_Title": "Privacy and Security",
+                "title": "Privacy and Security",
+                "BlockedContacts":{
+                    "title": "Blocked Contacts",
+                    "cell_title": "Blocked Contacts",
+                    "searchBar": {
+                        "placeHolder": "Number or Name (Ex: John Doe)"
+                    },
+                    "NoItemPlaceHolder": "Blocked Contacts can't send you messages or add you to groups or call you. they will not see your profile pictures, online and last seen status.",
+                    "actions": {
+                        "addBlockedContact": "Add Blocked Contact"
+                    }
+                },
+                "PhoneNumber": {
+                    "title": "Phone Number",
+                    "cell_title": "Phone Number",
+                    "whoCanSee": {
+                        "header": "Who can see my phone number",
+                        "footer": "Users who have your number saved in their contacts will also see your phone number."
+                    },
+                    "Exceptions": {
+                        "alwaysShareWith": "Always Share With",
+                        "neverShareWith": "Never Share With",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "lastSeenAndOnline": {
+                    "title": "Last Seen & Online",
+                    "cell_title": "Last Seen & Online",
+                    "whoCanSee": {
+                        "header": "Who can see my Timestamp",
+                        "footer": "You won't see Last Seen and Online status for people with whom you don't share yours.\nApproximate last seen will be shown instead.\n(recently, within a week, within a month)"
+                    },
+                    "Exceptions": {
+                        "alwaysShareWith": "Always Share With",
+                        "neverShareWith": "Never Share With",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "profilePhoto": {
+                    "title": "Profile Photo",
+                    "cell_title": "Profile Photo",
+                    "whoCanSee": {
+                        "header": "Who can see my Profile Photo",
+                        "footer": "You can restrict who can see your profile photo with granular precision."
+                    },
+                    "Exceptions": {
+                        "alwaysShareWith": "Always Share With",
+                        "neverShareWith": "Never Share With",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "calls": {
+                    "title": "Calls",
+                    "cell_title": "Calls",
+                    "whoCanSee": {
+                        "header": "Who can Call Me",
+                        "footer": "Choose exactly who can and can't call you."
+                    },
+                    "Exceptions": {
+                        "alwaysAllow": "Always Allow",
+                        "neverAllow": "Never Allow",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "forwardedMessages": {
+                    "title": "Forwarded Messages",
+                    "cell_title": "Forwarded Messages",
+                    "whoCanSee": {
+                        "header": "Who can add a link to my account when forwarding my messages",
+                        "footer": "Messages you send will not link back to your account when forwarded by users."
+                    },
+                    "Exceptions": {
+                        "alwaysAllow": "Always Allow",
+                        "neverAllow": "Never Allow",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "groupsAndChannels": {
+                    "title": "Groups & Channels",
+                    "cell_title": "Groups & Channels",
+                    "whoCanSee": {
+                        "header": "Who can Invite me",
+                        "footer": "You can restrict who can invite you to groups and channels with granular precision."
+                    },
+                    "Exceptions": {
+                        "alwaysAllow": "Always Allow",
+                        "neverAllow": "Never Allow",
+                        "header": "Exceptions",
+                        "footer": "You can add users or entire groups as exceptions that will override the settings above."
+                    }
+                },
+                "autoDeleteAccount": {
+                    "title": "If Away For",
+                    "header": "Automatically delete my account",
+                    "footer": "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.",
+                    "options": {
+                        "oneMonth": "1 Month",
+                        "threeMonths": "3 Months",
+                        "sixMonths": "6 Months",
+                        "oneYear": "12 Months"
+                    }
+                },
+                "TwoStepVerification":{
+                    "title": "Two-Step Verification",
+                    "cell_title": "Two-Step Verification",
+                    "contents": {
+                        "title": "Additional Password",
+                        "detail": "You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.",
+                        "setPasswordButton": "Set Additional Password"
+                    }
+                },
+                "appPasscode":{
+                    "title": "Application Passcode",
+                    "cell_title": "Application Passcode",
+                    "onPassCodePage": {
+                        "passActions": {
+                            "turnOffButtonTitle": "Turn Passcode Off",
+                            "changePassCodeButtontitle": "Change Passcode",
+                            "footer": "When you set up an additional passcode, opening application will ask you for a passcode to enter, else you will not have access to the app.\nThis will prevent unauthorized access to the application."
+                        },
+                        "accessActions": {
+                            "autoLock": "Auto-Lock",
+                            "autoLockOptions": {
+                                "disabled": "Disabled",
+                                "away1Minute": "If away for 1 minute",
+                                "away5Minute": "If away for 5 minute",
+                                "away1Hour": "If away for 1 hour",
+                                "away5Hours": "If away for 5 hours"
+                            },
+                            "unlockFaceId": "Unlock with Face ID",
+                            "header": "Note: if you forget the passcode, you'll need to delete and reinstall the app. All secret chats and call history will be lost."
+                        }
+                    },
+                    "onNoPassCode": {
+                        "headerTitle": "Passcode Lock",
+                        "headerDetail": "When you set up an additional passcode, opening application will ask you for a passcode to enter, else you will not have access to the app.\nThis will prevent unauthorized access to the application.",
+                        "turnOnButtonTitle": "Turn Passcode On",
+                        "footer": "Note: if you forget the passcode, you'll need to delete and reinstall the app. All secret chats and call history will be lost."
+                    },
+                    "setPassCode": {
+                        "newPassCode": {
+                            "initial": "Enter a passcode",
+                            "confirm": "Confirm your new passcode",
+                            "options": {
+                                "fourDigits": "4-Digit Numeric Code",
+                                "sixDigits": "6-Digit Numeric Code",
+                                "customNumeric": "Custom Numeric code",
+                                "customAlphaNumeric": "Custom Alphanumeric code"
+                            }
+                        },
+                        "currentPassCode": {
+                            "title": "Enter your current passcode",
+                            "failure": "%d Failed Passcode Attempts !"
+                        }
+                    }
+                }
+            },
+            "ProfileEditor": {
+                "biographyEditFooter": "Any details such as mood, age, occupation or city.\nExample: Musician, 22 y.o. from Los Angeles.",
+                "fullNameEditFooter": "Enter your name and add an optional profile photo.",
+                "profileNameNotSet": "Profile Name not set",
+                "userNameNotSet": "Username not set",
+                "Deactivate": "Deactivate"
+            },
+            "RecentCalls": {
+                "cell_Title": "Recent Calls",
+                "title": "Recent Calls"
+            },
+            "SavedMessages": {
+                "cell_Title": "Saved Messages",
+                "title": "Saved Messages"
+            }
+        }
+    }
+}
