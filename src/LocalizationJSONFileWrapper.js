@@ -11,6 +11,7 @@ class LocalizationJSONFileWrapper {
         }
         this.src_dir = src_dir;
         if( !fs.existsSync( this.getLocalizationFilePath() ) ){
+            console.error(`localizationJsonFile at : ${this.getLocalizationFilePath()} does not exist. check file path and try again.`);
             throw `localizationJsonFile at : ${this.getLocalizationFilePath()} does not exist. check file path and try again.`
         }
 

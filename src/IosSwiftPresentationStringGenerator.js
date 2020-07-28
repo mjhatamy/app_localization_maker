@@ -3,34 +3,33 @@ const fs = require('fs');
 class IosSwiftPresentationStringGenerator {
 
     makeSwiftFile(json){
-
-        var code = "/**\n\n";
-        code += "\tCreated by Majid Hatami Aghdam\n";
-        code += "\tNodeJs Code Generator localizations_nodejs By mjhatamy@gmail.com\n";
-        code += "\tAuto code generated on " + `${new Date()}\n`;
-        code += "*/\n\n";
-        code += "import UIKit\n\n\npublic final class PresentationStrings {\n\n";
+        let code = "//\n";
+        code += "//\tCreated by Majid Hatami Aghdam\n";
+        code += "//\tNodeJs Code Generator localizations_nodejs By mjhatamy@gmail.com\n";
+        code += "//\tAuto code generated on " + `${new Date()}\n`;
+        code += "//\n// swiftlint:disable nesting\n";
+        code += "import UIKit\n\npublic final class PresentationStrings {\n";
         //return "\u{200E}" + (ldict?[key] ?? ( mdict[key] ?? ""))   \200E causes the string to show always in english format
 
-        code += "\tfileprivate class func valueForKeyPath(_ keyPath:String) -> String{\n";
-        code += "\t\tlet value = NSLocalizedString(keyPath, comment:keyPath)\n";
+        code += "\tfileprivate class func valueForKeyPath(_ keyPath: String) -> String {\n";
+        code += "\t\tlet value = NSLocalizedString(keyPath, comment: keyPath)\n";
+        code += "\t\tif value == keyPath {\n";
+        code += "\t\t\tLOGE(\" Error in NSLocalizedString. Value not found for keyPath: \(keyPath) \")\n";
+        code += "\t\t}\n";
+        code += "\t\treturn value\n";
+        code += "\t}\n";
+
+        code += "\tpublic func valueForKeyPath(_ keyPath: String) -> String {\n";
+        code += "\t\tlet value = NSLocalizedString(keyPath, comment: keyPath)\n";
         code += "\t\tif value == keyPath {\n";
         code += "\t\t\tLOGE(\" Error in NSLocalizedString. Value not found for keypath: \(keyPath) \")\n";
         code += "\t\t}\n";
         code += "\t\treturn value\n";
         code += "\t}\n";
 
-        code += "\tpublic func valueForKeyPath(_ keyPath:String) -> String{\n";
-        code += "\t\tlet value = NSLocalizedString(keyPath, comment:keyPath)\n";
-        code += "\t\tif value == keyPath {\n";
-        code += "\t\t\tLOGE(\" Error in NSLocalizedString. Value not found for keypath: \(keyPath) \")\n";
-        code += "\t\t}\n";
-        code += "\t\treturn value\n";
-        code += "\t}\n";
-
-        code += "\tfileprivate class func valueForKeyPath(_ keyPath:String) -> Int?{\n";
-        code += "\t\tguard let intVal = Int( NSLocalizedString(keyPath, comment:keyPath) ) else {\n";
-        code += "\t\t\tLOGE(\"Unable to find Int value for KeyPath:\\(keyPath)  NSLocalizedString:\\(NSLocalizedString(keyPath, comment:keyPath)) \")\n";
+        code += "\tfileprivate class func valueForKeyPath(_ keyPath: String) -> Int? {\n";
+        code += "\t\tguard let intVal = Int( NSLocalizedString(keyPath, comment: keyPath) ) else {\n";
+        code += "\t\t\tLOGE(\"Unable to find Int value for KeyPath:\\(keyPath)  NSLocalizedString:\\(NSLocalizedString(keyPath, comment: keyPath)) \")\n";
         code += "\t\t\treturn nil\n\t\t}\n";
         code += "\t\treturn intVal\n";
         code += "\t}\n\n";
@@ -63,8 +62,8 @@ class IosSwiftPresentationStringGenerator {
                 let newParentKey = `${parentKey}.${key}`
                 const item = m_item[key];
                 if( typeof item === 'object'){
-                    code += `${makeTables()}public var ${key}:m${key} = m${key}()\n`;
-                    code += `${makeTables()}public struct m${key}{\n`;
+                    code += `${makeTables()}public let ${key}: m${key} = m${key}()\n`;
+                    code += `${makeTables()}public struct m${key} {\n`;
                     depth += 1;
 
                     wrap_JsonObject(newParentKey, item);
@@ -81,11 +80,11 @@ class IosSwiftPresentationStringGenerator {
         }
 
         function wrap_ValueObject(parentKey, item){
-            code += `${makeTables()}public var ${item}:String { return PresentationStrings.valueForKeyPath("${parentKey}")  }\n`;
+            code += `${makeTables()}public var ${item}: String { return PresentationStrings.valueForKeyPath("${parentKey}") }\n`;
         }
 
         function wrap_NumberValueObject(parentKey, item){
-            code += `${makeTables()}public var ${item}:Int? {return PresentationStrings.valueForKeyPath("${parentKey}")}\n`;
+            code += `${makeTables()}public var ${item}: Int? { return PresentationStrings.valueForKeyPath("${parentKey}") }\n`;
         }
 
         /// First Add Keys which are value type
@@ -93,21 +92,20 @@ class IosSwiftPresentationStringGenerator {
             const item = json[key];
             if(typeof item === 'string'){
                 let keyWidthOutSpaceForVariableName = key.replace(/ /g,"_");
-                code += `\tpublic var ${keyWidthOutSpaceForVariableName}:String { return NSLocalizedString("${key}", comment:"${key}") }\n`
+                code += `\tpublic var ${keyWidthOutSpaceForVariableName}: String { return NSLocalizedString("${key}", comment: "${key}") }\n`
             }
         }
 
-        code += '\n\n';
-
+        //code += '';
         /// Now add Keys for struct types
         var depth = 1
         for(var key in json){
             const item = json[key];
             if(typeof item === 'object'){
-                code += `\tpublic struct m${key}{\n`;
+                code += `\tpublic struct m${key} {\n`;
                 process_Item(key, item);
                 code += "\t}\n";
-                code += `\tpublic let ${key}:m${key} = m${key}()\n\n`;
+                code += `\tpublic let ${key}: m${key} = m${key}()\n`;
             }
 
             /*
@@ -122,10 +120,10 @@ class IosSwiftPresentationStringGenerator {
                 }
             }
             */
-
         }
 
         code += "}";
+        code = code.concat('\n')
         console.log("\nDONE\n")
         //console.log(code);
         if(typeof process.env.SWIFT_PRESENTATION_FILE_PATH === 'undefined' || process.env.SWIFT_PRESENTATION_FILE_PATH == null){
@@ -173,7 +171,7 @@ class IosSwiftPresentationStringGenerator {
             }
             fs.writeFile(outputFilePath, outputString, 'utf8', function (err) {
                 if(err){
-                    console.error(`Failed to write output Localizable code to file at path:\nError: ${err}`);
+                    console.error(`Failed to write output Localizable:'${languageCode}' code to file at path:\nError: ${err}`);
                     reject(err)
                     return;
                 }
