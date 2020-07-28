@@ -16,6 +16,7 @@
 !.gitattributes
 !.github
 !.gitignore
+!.env
 !.gitkeep
 !.mailmap
 !.nycrc
